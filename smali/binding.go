@@ -1,11 +1,10 @@
-package smali
+package tree_sitter_smali
 
 // #cgo CFLAGS: -std=c11 -fPIC
 // #include "parser.c"
 // #if __has_include("scanner.c")
 // #include "scanner.c"
 // #endif
-// TSLanguage *tree_sitter_smali();
 import "C"
 
 import (
